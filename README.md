@@ -1,10 +1,12 @@
-# ROARR — battle emotes on an action slot
+# Battle Emotes Legacy — battle emotes on an action slot
 
-**Creator / project author:** Babuni.dev  
+**By:** Babuni  
 **Repository:** `roar` — the **installed addon is named `roarr`**.  
 **Target:** World of Warcraft 1.12 / interface `11200`  
 **Declared version:** 1.0  
 **Current runtime verification:** Not retested in this documentation review.
+
+I have renamed this historical GitHub project **Battle Emotes Legacy** to distinguish it from the later Battle Emotes experiment. The GitHub repository is now [`BattleEmotesLegacy`](https://github.com/babunidev/BattleEmotesLegacy), but its installed addon remains **ROARR**, with its original filenames and commands.
 
 ROARR gives an ordinary action-bar press a little theatrical personality. After you choose a button, the addon can perform a randomly selected **built-in World of Warcraft emote**—ROAR, CHARGE, CHEER, BORED, or FLEX—without replacing that button's normal action. It's a lightweight character-flavor addon, not combat automation.
 
@@ -65,7 +67,7 @@ These changes are evidenced in Git; they should not be confused with a separate 
 
 ## License and attribution
 
-**Creative/project author:** Babuni.dev. The repository includes an **MIT `LICENSE` file** with the historical copyright line `Copyright (c) 2025 Elexior`. That wording has been left untouched. The relationship between the historical copyright holder and the current display author has not been independently established in this review; confirm attribution before changing legal language. The casual permission wording in the former README is not a substitute for the committed MIT license.
+**Creative/project author:** Babuni. The repository includes an **MIT `LICENSE` file** with the historical copyright line `Copyright (c) 2025 Elexior`. That wording has been left untouched. The relationship between the historical copyright holder and the current display author has not been independently established in this review; confirm attribution before changing legal language. The casual permission wording in the former README is not a substitute for the committed MIT license.
 
 ## Documentation
 
