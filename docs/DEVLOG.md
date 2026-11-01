@@ -1,15 +1,17 @@
-# ROARR — development journal and the origin of the `roar` repo
+# Battle Emotes Legacy — development journal and the origin of the `roar` repo
 
-**Project author / creative director:** Babuni.dev  
+**By:** Babuni  
 **Preparation date:** 2026-10-26. This account uses the repository README, committed source, and dated Git diffs. It is a **retrospective reconstruction**, not a recovered verbatim design conversation.
 
 ## 22 November 2025: from the BuxbrewCharge pattern to ROAR
+
+The original source explicitly identifies the earlier BuxbrewCharge addon as its starting point. This gives my Battle Emotes Legacy project a documented technical lineage, although it does not recover the original conversation in which I decided what to change.
 
 The earliest visible source commit, `d618976` on **2025-11-22**, begins with an unusually useful attribution of code lineage: it states that ROAR was **based on BuxbrewCharge and rewritten** under a `/roar` command. That is more concrete than merely noticing the two addons both monitor an action slot.
 
 The first implementation already contained much of the idea: select an action-bar slot, intercept `UseAction`, check an interval and chance, then invoke a game-supplied emote. Its small token pool mixed the grandiosity of ROAR and CHARGE with CHEER, FLEX, and the wonderfully incongruous BORED. The concept was a fast, lightweight expression of combat mood rather than a custom combat system.
 
-The earliest source initially used `ROARDB` and `/roar`, with a 20-second default cooldown visible in that first snapshot. These are historical facts of that initial code, not the settings of the current ROARR release. The original conversations that produced the idea are not preserved in this repo; the project remains credited to Babuni.dev.
+The earliest source initially used `ROARDB` and `/roar`, with a 20-second default cooldown visible in that first snapshot. These are historical facts of that initial code, not the settings of the current ROARR release. The original conversations that produced the idea are not preserved in this repo; the project remains credited to Babuni.
 
 ## 23 November 2025: short-cycle toolmaking and configurability
 
@@ -33,12 +35,16 @@ The source uses a global `UseAction` wrapper, lazily reads account-wide preferen
 
 ## 2026: wording, credit and preservation
 
-A **2026-09-18** change (`371fa98`) generalized client descriptions to avoid tying support claims to one specific private-server provider. On **2026-10-26**, several commits updated displayed authorship to **Babuni.dev** and added a short documentation scaffold. The repository's separate MIT license retains an earlier copyright statement naming **Elexior**; this expansion leaves that legal file intact and flags attribution for future clarification without inventing the relationship.
+A **2026-09-18** change (`371fa98`) generalized client descriptions to avoid tying support claims to one specific private-server provider. On **2026-10-26**, several commits updated displayed authorship to **Babuni** and added a short documentation scaffold. The repository's separate MIT license retains an earlier copyright statement naming **Elexior**; this expansion leaves that legal file intact and flags attribution for future clarification without inventing the relationship.
 
 This documentation pass inspected the code and selected dated diffs and replaced the sparse scaffold with a detailed user guide, creative concept, interaction design, content register, architecture, decision record, roadmap, and human–AI attribution method. AI contributed research, analysis, drafting and the repository documentation commit **only**. It did not originate the project, approve new game behavior, modify `roarr.lua`, or run the addon in a client.
 
 ## The honest remaining questions
 
-The creator has not yet indicated, in available evidence, whether a failed chance roll *should* consume the cooldown, whether sharing one watched slot across the account is desirable, or how this original `roar` repository should sit beside a separate `roarr` repository and the more recent RoarForever line. These questions belong in the continuing human–AI collaboration and the eventual portfolio retrospective.
+Babuni has not yet indicated, in available evidence, whether a failed chance roll *should* consume the cooldown, whether sharing one watched slot across the account is desirable, or how this original `roar` repository should sit beside a separate `roarr` repository and the more recent RoarForever line. These questions belong in the continuing human–AI collaboration and the eventual portfolio retrospective.
 
 **Verified through repository evidence:** dates and file renames, final code structure, 5 tokens, default settings, saved-variable design, MIT file presence. **Not verified:** specific motivations behind all renames, final WoW runtime behavior, player reception, cross-addon compatibility and the LICENSE copyright relationship.
+
+## November 2026 — naming the legacy experiment
+
+I renamed this GitHub repository from `roar` to **BattleEmotesLegacy** to distinguish it from the separate `roarr` project. My AI assistant revised the documentation at my direction, while preserving the historical installed **ROARR** identity and its commands. No runtime code was changed or tested.
