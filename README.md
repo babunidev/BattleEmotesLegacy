@@ -1,12 +1,12 @@
 # Battle Emotes Legacy — battle emotes on an action slot
 
 **By:** Babuni  
-**Repository:** `roar` — the **installed addon is named `roarr`**.  
+**Repository:** [`babunidev/BattleEmotesLegacy`](https://github.com/babunidev/BattleEmotesLegacy), formerly `roar`. **Installed addon:** `roarr`.  
 **Target:** World of Warcraft 1.12 / interface `11200`  
 **Declared version:** 1.0  
 **Current runtime verification:** Not retested in this documentation review.
 
-I have renamed this historical GitHub project **Battle Emotes Legacy** to distinguish it from the later Battle Emotes experiment. The GitHub repository is now [`BattleEmotesLegacy`](https://github.com/babunidev/BattleEmotesLegacy), but its installed addon remains **ROARR**, with its original filenames and commands.
+To distinguish this older experiment from the later Battle Emotes project, I renamed its GitHub repository **BattleEmotesLegacy**. The GitHub repository is now [`BattleEmotesLegacy`](https://github.com/babunidev/BattleEmotesLegacy), but its installed addon remains **ROARR**, with its original filenames and commands.
 
 ROARR gives an ordinary action-bar press a little theatrical personality. After you choose a button, the addon can perform a randomly selected **built-in World of Warcraft emote**—ROAR, CHARGE, CHEER, BORED, or FLEX—without replacing that button's normal action. It's a lightweight character-flavor addon, not combat automation.
 
@@ -24,7 +24,7 @@ Interface/
       roarr.lua
 ```
 
-Restart the target WoW client and enable **ROARR**. The GitHub repository name `roar` is historical; do **not** install a folder containing only the old `roar.lua` / `roar.toc` names from earlier Git commits.
+Restart the target WoW client and enable **ROARR**. The former repository name `roar` is historical; do **not** install a folder containing only the old `roar.lua` / `roar.toc` names from earlier Git commits.
 
 ## First setup
 
@@ -59,11 +59,24 @@ When the roll succeeds, ROARR chooses among five `DoEmote` tokens. The code fall
 
 Other addons that hook global `UseAction` may interact with ROARR depending on load order. Client-specific emote behavior, localization, and actual compatibility require live testing.
 
+## How it differs from the other action-emote addons
+
+| Project | Emote content | Default cooldown | Adjustable chance / cooldown | Guild recruitment |
+| --- | --- | --- | --- | --- |
+| [Action Emotes #1](https://github.com/babunidev/ActionEmotes-1), originally BuxbrewCharge | 10 built-in emotes | 21 seconds | No / No | No |
+| [Action Emotes #2](https://github.com/babunidev/ActionEmotes-2), originally Buxbrew | 215 custom written emotes | 90 seconds | No / No | No |
+| **Battle Emotes Legacy** (this project) | **5 built-in battle emotes** | **6 seconds** | **Yes / Yes** | **No** |
+| [`roarr`](https://github.com/babunidev/roarr), separate project | Same five built-in battle emotes | 6 seconds | Yes / Yes | No |
+
+The current Lua files of the two ROARR repositories have **identical gameplay code**. Their observed difference is the help presentation: Battle Emotes Legacy has a condensed `/roarr tutorial`; the separate `roarr` repository has a seven-step tutorial. Git does not establish why both repositories were originally maintained.
+
+Looking back, I associate this experiment with the **ROAR guild**. That connection is part of the project's history, but **guild invitation and recruitment features are absent from both ROARR versions**. The later [RoarGuild](https://github.com/babunidev/RoarGuild) addon contains the remembered `/rogu invite` command, which posts a random recruitment message to a numbered chat channel on request. It does not send a game invitation to a player.
+
 ## Project history and naming
 
 The first source upload on **2025-11-22** called this addon **ROAR**, explicitly describing it in a source comment as *based on BuxbrewCharge*. Development on **2025-11-23** added and adjusted configuration, on/off handling, and changed names between `roar` and `roarr` several times. The final committed package is **ROARR**, using `/roarr` and `ROARRDB`.
 
-These changes are evidenced in Git; they should not be confused with a separate repository named `roarr` or with the later, more elaborate **RoarForever** addon. No repository-level dependency on either is present in the current source.
+The separate `roarr` repository has the same core implementation, whereas RoarGuild and the later **RoarForever** have different features. No code dependency on those projects appears in this source.
 
 ## License and attribution
 
@@ -76,4 +89,4 @@ These changes are evidenced in Git; they should not be confused with a separate 
 - [Roadmap / verification](ROADMAP.md) · [Changelog](CHANGELOG.md)
 - [Human–AI collaboration](docs/AI_COLLABORATION.md) · [Developer instructions](AGENTS.md)
 
-This project record distinguishes the creator's authorship, AI documentation assistance, historically observable code changes, and behavior that has not yet been checked in-game.
+This project record distinguishes the human creative's authorship, AI documentation assistance, historically observable code changes, and behavior that has not yet been checked in-game.

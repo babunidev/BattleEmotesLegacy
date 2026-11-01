@@ -47,4 +47,10 @@ Babuni has not yet indicated, in available evidence, whether a failed chance rol
 
 ## November 2026 — naming the legacy experiment
 
-I renamed this GitHub repository from `roar` to **BattleEmotesLegacy** to distinguish it from the separate `roarr` project. My AI assistant revised the documentation at my direction, while preserving the historical installed **ROARR** identity and its commands. No runtime code was changed or tested.
+To distinguish it from the separate `roarr` project, I renamed this GitHub repository from `roar` to **BattleEmotesLegacy**. My AI assistant revised the documentation at my direction, while preserving the historical installed **ROARR** identity and its commands. No runtime code was changed or tested.
+
+## 1 November 2026 — sorting out the ROAR projects
+
+The ROAR guild came back to mind as I tried to remember which of these addons sent its welcoming recruitment messages. A comparison by my AI assistant showed that **Battle Emotes Legacy** and **`roarr`** have the same gameplay code; their difference is a condensed versus seven-step tutorial. Compared with Action Emotes #1's ten native emotes and Action Emotes #2's 215 custom written lines, this one offers **five native battle emotes with configurable chance and cooldown**.
+
+The guild recruitment messages actually appear in the later **RoarGuild** project, through a manually invoked `/rogu invite` chat-broadcast command. This older addon has no such feature. My recollection explains the naming and guild association without turning those memories into unsupported code claims. AI reviewed the sources and revised the docs; no gameplay files were modified or tested.

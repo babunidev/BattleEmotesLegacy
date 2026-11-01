@@ -1,6 +1,6 @@
 # Battle Emotes Legacy — interaction and presentation design
 
-The project is now named **Battle Emotes Legacy** on GitHub; the addon itself retains the historical **ROARR** identity. I have kept these names distinct from the separate `roarr` repository.
+The project is now named **Battle Emotes Legacy** on GitHub; the addon itself retains the historical **ROARR** identity. In this record, I keep these names distinct from the separate `roarr` repository.
 
 **By:** Babuni
 
@@ -43,4 +43,4 @@ Text setup can be challenging if slot numbering changes between bar layouts; the
 
 ## Naming
 
-The outer GitHub repository is `roar`; the final addon is **ROARR**. Display and usage text should prioritize the installed `/roarr` command while the history explains why the two names coexist.
+The GitHub repository is **BattleEmotesLegacy**, formerly `roar`; the installed addon remains **ROARR**. The separate `roarr` repository has a longer tutorial but the same gameplay code. Babuni associates this experiment with the ROAR guild, while the actual guild-recruitment messages belong to the later RoarGuild addon.

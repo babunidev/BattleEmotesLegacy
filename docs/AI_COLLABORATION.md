@@ -31,4 +31,8 @@ Keep public portfolio write-ups publication-safe. Do not expose private chat log
 
 ## November 2026 — project naming
 
-I chose **Battle Emotes Legacy** for this older repository and renamed it on GitHub. At my request, an AI assistant aligned the documentation with that choice. This did not rename the installed addon or establish that the separate `roarr` repository is a direct successor. No in-game tests were performed in this pass.
+For this older repository, I chose **Battle Emotes Legacy** and renamed it on GitHub. At my request, an AI assistant aligned the documentation with that choice. This did not rename the installed addon or establish why the separate `roarr` repository was maintained. No in-game tests were performed in this pass.
+
+## 1 November 2026 — comparison prompted by a remembered guild connection
+
+Babuni asked how Battle Emotes Legacy differed from Action Emotes #1, Action Emotes #2, and `roarr`, recalling a connection with the **ROAR guild** and possible invitation messages. AI compared those Lua sources and the later **RoarGuild** implementation, established that the two ROARR versions differ in tutorial output rather than gameplay, and traced recruitment chat messages to RoarGuild. This is a fresh human recollection combined with source research, not recovered original dialogue. Documentation only; no code or license changes and no in-game tests.

@@ -30,7 +30,7 @@ The MIT LICENSE contains `Copyright (c) 2025 Elexior`, while current repo and ma
 
 1. Should chance failures consume a cooldown?
 2. Should the saved slot be per-character rather than shared account-wide?
-3. Does ROARR remain a deliberately five-token lightweight sibling or belong to a migration narrative with `roarr` and RoarForever repositories?
+3. Should the two nearly identical ROARR repositories remain separate historical snapshots or eventually share a distribution? Their current source similarity does not settle that creative decision.
 4. Should an optional non-public preview be added?
 5. Should historical attribution in the LICENSE be clarified?
 
@@ -42,4 +42,10 @@ The assistant expanded docs only. It did not change addon behavior or settle any
 
 ## November 2026 — repository identity
 
-I renamed this repository to **BattleEmotesLegacy**. The installed addon continues to use `roarr` filenames, commands and saved variables. The distinct `roarr` repository remains separate until a source-grounded comparison establishes its relationship. My AI assistant made documentation edits only; no runtime migration was carried out.
+To distinguish its history, I renamed this repository to **BattleEmotesLegacy**. The installed addon continues to use `roarr` filenames, commands and saved variables. The separate `roarr` repository remains a distinct project record. My AI assistant made documentation edits only; no runtime migration was carried out.
+
+## 2026-11-01 — source comparison and guild memories
+
+The `roarr.lua` implementations in this repository and `babunidev/roarr` were compared. Both have the same gameplay logic and settings; only `/roarr tutorial` differs (one compact line here, seven setup steps there). This answers what is currently different, but not why two repositories were kept.
+
+Babuni recalled that the project was associated with the **ROAR guild**. Neither ROARR source contains guild recruiting or invitations. The later **RoarGuild** source implements `/rogu invite`, which manually sends randomized recruitment text to a chat channel, not an actual player invite. No new gameplay behavior or merge was approved.

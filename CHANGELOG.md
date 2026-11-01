@@ -1,6 +1,14 @@
-# Battle Emotes Legacy / roar — changelog and source history
+# Battle Emotes Legacy (formerly roar) — changelog and source history
 
 **Project author:** Babuni. Dates below identify **Git commits**, not necessarily releases.
+
+## 2026-11-01 — clarify the ROAR addon family
+
+- Compared Battle Emotes Legacy with Action Emotes #1, Action Emotes #2, the separate `roarr` repository, and RoarGuild.
+- Clarified the five native battle emotes and configurable chance/cooldown that distinguish this version.
+- Established that the two ROARR source files share gameplay logic, differing in their tutorial presentation.
+- Recorded Babuni's ROAR guild recollection and identified the manual recruitment messages in **RoarGuild**.
+- Corrected stale references to the old GitHub repository name. No runtime files or license changed.
 
 ## 2026-10-26 — expanded documentation
 
@@ -27,6 +35,6 @@ The commit history supports the sequence of modifications but does not tell us w
 
 ## 2026-11-01 — descriptive project identity
 
-- I renamed the GitHub repository from `roar` to **BattleEmotesLegacy** to distinguish this older experiment from the later `roarr` repository.
+- To distinguish this older experiment from the later `roarr` repository, I renamed the GitHub repository from `roar` to **BattleEmotesLegacy**.
 - At my direction, AI updated the documentation and attribution while retaining historical addon names and source evidence.
 - No Lua, TOC or license was changed; no in-game testing was performed.

@@ -34,7 +34,8 @@ None of these were executed during this documentation-only session.
 - Should a missed chance roll consume the cooldown, or should the timer start only when an emote actually fires?
 - Should slot settings remain account-wide or be character-specific?
 - Should the five-token pool stay deliberately small or expand?
-- Should compatibility with the other `roarr` repository and RoarForever be described as a migration, parallel experiment, or independent project? Resolve from actual evidence first.
+- The separate `roarr` repository contains the same gameplay code, with a longer tutorial. Should they remain distinct historical snapshots, or should distribution eventually be consolidated? No merge has been approved.
+- Guild-recruitment features belong to **RoarGuild**, not the current Battle Emotes Legacy scope.
 - Should the original ROAR-to-ROARR naming history appear as a public-facing portfolio narrative?
 - Should the MIT copyright line's relationship to the Babuni author credit be clarified?
 

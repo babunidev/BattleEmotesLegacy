@@ -24,6 +24,10 @@ If `DoEmote` is absent, the Lua fallback posts the short generic string “makes
 - Tutorial: a compact series of configuration commands, not a graphical wizard.
 - Invalid command: concise usage text; invalid chance/cooldown produces its corresponding usage guidance.
 
+## Where the guild messages live
+
+The **ROAR guild** is part of Babuni's recollection of this project, but the current Lua contains **no invitation or recruitment text**. The separate `roarr` repository uses the same five built-in emotes with a more detailed tutorial. The later [RoarGuild](https://github.com/babunidev/RoarGuild) addon contains the manually triggered randomized recruitment messages.
+
 ## Editorial maintenance
 
 Do not replace the five built-in tokens with bespoke text strings without Babuni's direction. Content changes should distinguish gameplay effects, specific game-owned emotes and Babuni's own addon-authored strings.

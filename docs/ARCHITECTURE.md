@@ -58,3 +58,9 @@ Slot input is passed through `tonumber` but not clamped to valid integer slot ID
 ## Source risks to verify
 
 Default timing on first press depends on initial `LAST_BATTLE_EMOTE_TIME=0` and current `GetTime()`. `math.randomseed` can affect the global PRNG used by other Lua code. Built-in emote names and their output depend on the actual client. None of these behaviors was tested by the documentation update.
+
+## Cross-project implementation boundary
+
+The separate `babunidev/roarr` repository contains the same gameplay code, emote tokens, configuration schema, and defaults. Its Lua file differs in the longer `/roarr tutorial` branch. This is a static source comparison, not evidence of an explicit Git merge.
+
+The later **RoarGuild** repository implements guild-recruitment text through `/rogu invite`, as well as multiple emote instances and Roarboard. None of those functions appear in Battle Emotes Legacy. The invite command publishes text to a chat channel; it does not issue an actual game guild invitation.

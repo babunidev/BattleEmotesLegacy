@@ -1,11 +1,11 @@
 # Battle Emotes Legacy — concept and creative direction
 
 **By:** Babuni  
-**Package:** `roarr.lua` / `roarr.toc` within the repository named `roar`.
+**Package:** `roarr.lua` / `roarr.toc` in `BattleEmotesLegacy` (formerly `roar`).
 
 ## The experience
 
-The idea I explored here was to add visible character expression to something I was already doing in-game. The code grew out of the earlier **BuxbrewCharge** pattern, according to its original source comment. I now distinguish this historical repository as **Battle Emotes Legacy**. Its installed addon remains **ROARR**.
+The idea I explored here was to add visible character expression to something I was already doing in-game. The code grew out of the earlier **BuxbrewCharge** pattern, according to its original source comment. By my choice, the historical repository is now named **Battle Emotes Legacy**. Its installed addon remains **ROARR**.
 
 ROARR adds a moment of visible character expression to an action the player already chooses to make. Pressing a watched action slot may lead to an in-game ROAR, CHARGE, CHEER, BORED or FLEX emote. The effect is deliberately light: a bit of mood, bravado, impatience or celebration rather than another combat mechanic.
 
@@ -16,6 +16,10 @@ The **act of playing** supplies the timing. ROARR does not scan the combat log o
 This origin is unusually clear in an early **2025-11-22 Lua source comment**: the first ROAR version was “Based on BuxbrewCharge, rewritten as ROAR with /roar slash command.” That is direct code evidence of an implementation lineage. The present ROARR is a **built-in-emote** addon, unlike Buxbrew's larger pool of bespoke written `EMOTE` sentences.
 
 This does not prove a recovered conversation in which every design choice was individually proposed or accepted. Babuni is the project author; the assistance behind the first historical code and the reasons for each rename are not documented with a full dialogue.
+
+## The ROAR guild connection
+
+Looking back, I remember making this ROAR-themed experiment for the atmosphere of the **ROAR guild**. Yet its current source is an individual action-emote tool, without recruitment messages, guild membership checks, or invitation logic. The later **RoarGuild** addon contains the `/rogu invite` command for posting randomized recruitment text, not inviting a particular player through the game API.
 
 ## Creative boundaries
 
@@ -29,4 +33,4 @@ The current source starts the cooldown **before** the chance roll. Consequently,
 
 ## Canonical identity boundaries
 
-`roar` (this GitHub repository), `roarr` (installed addon identity and also a separate repository in the audit), and `RoarForever` (another project) must remain distinct unless the creator explicitly establishes how they relate. Shared thematic naming alone does not make them the same codebase or development timeline.
+The GitHub repository was formerly `roar`; its installed addon remains `roarr`. The separate `babunidev/roarr` repository shares its gameplay code, differing in the tutorial. **RoarGuild** adds guild recruitment and community functionality, while **RoarForever** is another distinct addon. Shared naming does not prove a formal succession plan.
