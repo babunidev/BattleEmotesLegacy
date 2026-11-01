@@ -1,10 +1,10 @@
-# ROARR — human–AI collaboration and attribution
+# Battle Emotes Legacy — human–AI collaboration and attribution
 
-**Human project author and creative authority:** Babuni.dev.
+**By:** Babuni.
 
-## What can be attributed to the creator
+## What can be attributed to Babuni
 
-Babuni.dev owns creative direction, naming approvals and future product decisions. The repository's early code explicitly describes this addon as rewritten from BuxbrewCharge. That is a factual *implementation lineage*; it does not reveal every historical human prompt, AI suggestion or accepted alternative.
+Babuni owns creative direction, naming approvals and future product decisions. The repository's early code explicitly describes this addon as rewritten from BuxbrewCharge. That is a factual *implementation lineage*; it does not reveal every historical human prompt, AI suggestion or accepted alternative.
 
 The source history shows extensive November 2025 editing. There is no complete approved transcript in the inspected repository assigning each implementation choice to a particular assistant or user utterance. Do not invent “we agreed to” accounts or credit the original artistic motivation to AI.
 
@@ -14,7 +14,7 @@ An AI assistant inspected the repository README, TOC, Lua source, license, and r
 
 ## Authorship versus legal notice
 
-Display attribution in the README and TOC names **Babuni.dev**. The MIT `LICENSE` includes a historic `Copyright (c) 2025 Elexior` line. This review does not establish whether the names refer to the same person or represent distinct rights. Retain the original notice until the appropriate rights owner clarifies it; don't silently reassign it in generated documentation.
+Display attribution in the README and TOC names **Babuni**. The MIT `LICENSE` includes a historic `Copyright (c) 2025 Elexior` line. This review does not establish whether the names refer to the same person or represent distinct rights. Retain the original notice until the appropriate rights owner clarifies it; don't silently reassign it in generated documentation.
 
 ## Future provenance format
 
@@ -28,3 +28,7 @@ For a substantial revision, record:
 6. Steps actually executed, observed outcomes, and what remains unverified.
 
 Keep public portfolio write-ups publication-safe. Do not expose private chat logs, account identifiers, player communications or credentials.
+
+## November 2026 — project naming
+
+I chose **Battle Emotes Legacy** for this older repository and renamed it on GitHub. At my request, an AI assistant aligned the documentation with that choice. This did not rename the installed addon or establish that the separate `roarr` repository is a direct successor. No in-game tests were performed in this pass.
