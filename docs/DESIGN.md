@@ -1,6 +1,8 @@
-# ROARR — interaction and presentation design
+# Battle Emotes Legacy — interaction and presentation design
 
-**Creative author:** Babuni.dev
+The project is now named **Battle Emotes Legacy** on GitHub; the addon itself retains the historical **ROARR** identity. I have kept these names distinct from the separate `roarr` repository.
+
+**By:** Babuni
 
 ## The little surprise
 
