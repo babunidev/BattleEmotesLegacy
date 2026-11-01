@@ -1,4 +1,4 @@
-# ROARR — source architecture (v1.0)
+# Battle Emotes Legacy — source architecture (v1.0)
 
 **Source:** `roarr.lua` and `roarr.toc` on `main`, inspected 2026-10-26. This is **static inspection**, not a live-client test.
 
