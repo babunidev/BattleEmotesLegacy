@@ -1,7 +1,11 @@
-# ROARR — verification and future choices
+# Battle Emotes Legacy — verification and future choices
 
-**Author:** Babuni.dev  
+**By:** Babuni  
 **Status:** proposed verification and creator decisions, **not** approved feature work.
+
+## Status and naming
+
+The GitHub repository is **BattleEmotesLegacy**, while the installed addon remains **ROARR**. Any future technical revisions or relationship to the separate `roarr` repository require explicit review; no new gameplay features are approved by this documentation pass.
 
 ## Implemented source baseline
 
@@ -32,7 +36,7 @@ None of these were executed during this documentation-only session.
 - Should the five-token pool stay deliberately small or expand?
 - Should compatibility with the other `roarr` repository and RoarForever be described as a migration, parallel experiment, or independent project? Resolve from actual evidence first.
 - Should the original ROAR-to-ROARR naming history appear as a public-facing portfolio narrative?
-- Should the MIT copyright line's relationship to the Babuni.dev author credit be clarified?
+- Should the MIT copyright line's relationship to the Babuni author credit be clarified?
 
 Record the creator's explicit answers in `docs/DECISIONS.md` before treating any item as a requirement.
 
