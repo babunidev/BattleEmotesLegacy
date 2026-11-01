@@ -26,10 +26,14 @@ If `DoEmote` is absent, the Lua fallback posts the short generic string “makes
 
 ## Where the guild messages live
 
-The **ROAR guild** is part of Babuni's recollection of this project, but the current Lua contains **no invitation or recruitment text**. The separate `roarr` repository uses the same five built-in emotes with a more detailed tutorial. The later [RoarGuild](https://github.com/babunidev/RoarGuild) addon contains the manually triggered randomized recruitment messages.
+The **ROAR guild** is part of Babuni's recollection of this project, but the current Lua contains **no invitation or recruitment text**. The separate `roarr` repository uses the same five built-in emotes with a more detailed tutorial. The later [RoarGuild](https://github.com/babunidev/RoarGuildAddon) addon contains the manually triggered randomized recruitment messages.
 
 ## Editorial maintenance
 
 Do not replace the five built-in tokens with bespoke text strings without Babuni's direction. Content changes should distinguish gameplay effects, specific game-owned emotes and Babuni's own addon-authored strings.
 
 Historical source variants used `ROAR`, `/roar` and `ROARDB`; the final package uses the distinct `ROARR` namespace. See `docs/DEVLOG.md` for source-backed evolution.
+
+## Place in the expressive-addon family
+
+Battle Emotes Legacy is the November 2025 ROAR experiment derived from BuxbrewCharge. Its five battle-emote tokens (ROAR, CHARGE, CHEER, BORED and FLEX) are a **fixed Lua table**, not a starting set the player can extend with commands. It adds adjustable chance/cooldown and an on/off switch, but not guild recruitment. The separate Battle Emotes repository has effectively the same gameplay implementation and a longer tutorial. See [the source-grounded family timeline](EMOTE_FAMILY_HISTORY.md) for the differences between all the projects.

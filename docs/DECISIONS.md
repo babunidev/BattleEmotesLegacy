@@ -49,3 +49,7 @@ To distinguish its history, I renamed this repository to **BattleEmotesLegacy**.
 The `roarr.lua` implementations in this repository and `babunidev/roarr` were compared. Both have the same gameplay logic and settings; only `/roarr tutorial` differs (one compact line here, seven setup steps there). This answers what is currently different, but not why two repositories were kept.
 
 Babuni recalled that the project was associated with the **ROAR guild**. Neither ROARR source contains guild recruiting or invitations. The later **RoarGuild** source implements `/rogu invite`, which manually sends randomized recruitment text to a chat channel, not an actual player invite. No new gameplay behavior or merge was approved.
+
+## Place in the expressive-addon family
+
+Battle Emotes Legacy is the November 2025 ROAR experiment derived from BuxbrewCharge. Its five battle-emote tokens (ROAR, CHARGE, CHEER, BORED and FLEX) are a **fixed Lua table**, not a starting set the player can extend with commands. It adds adjustable chance/cooldown and an on/off switch, but not guild recruitment. The separate Battle Emotes repository has effectively the same gameplay implementation and a longer tutorial. See [the source-grounded family timeline](EMOTE_FAMILY_HISTORY.md) for the differences between all the projects.

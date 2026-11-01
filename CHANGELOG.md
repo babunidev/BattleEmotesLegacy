@@ -38,3 +38,8 @@ The commit history supports the sequence of modifications but does not tell us w
 - To distinguish this older experiment from the later `roarr` repository, I renamed the GitHub repository from `roar` to **BattleEmotesLegacy**.
 - At my direction, AI updated the documentation and attribution while retaining historical addon names and source evidence.
 - No Lua, TOC or license was changed; no in-game testing was performed.
+
+## 2026-11-01 — verified cross-project history
+
+- Clarified the five-emote fixed source pool, not an unlimited in-game registry.
+- Linked [the complete emote-addon family history](docs/EMOTE_FAMILY_HISTORY.md), including the guild and spellcast branches. No runtime changes.

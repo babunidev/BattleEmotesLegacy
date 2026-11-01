@@ -44,3 +44,7 @@ Record the creator's explicit answers in `docs/DECISIONS.md` before treating any
 ## Release/verification evidence
 
 For each manual test record client build, active addons, steps, expected output, observed output, and commit. Document code fixes in changelog and devlog; don't mark a source inspection as a passed gameplay test.
+
+## Place in the expressive-addon family
+
+Battle Emotes Legacy is the November 2025 ROAR experiment derived from BuxbrewCharge. Its five battle-emote tokens (ROAR, CHARGE, CHEER, BORED and FLEX) are a **fixed Lua table**, not a starting set the player can extend with commands. It adds adjustable chance/cooldown and an on/off switch, but not guild recruitment. The separate Battle Emotes repository has effectively the same gameplay implementation and a longer tutorial. See [the source-grounded family timeline](docs/EMOTE_FAMILY_HISTORY.md) for the differences between all the projects.

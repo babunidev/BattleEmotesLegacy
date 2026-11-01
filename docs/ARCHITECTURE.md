@@ -64,3 +64,7 @@ Default timing on first press depends on initial `LAST_BATTLE_EMOTE_TIME=0` and 
 The separate `babunidev/roarr` repository contains the same gameplay code, emote tokens, configuration schema, and defaults. Its Lua file differs in the longer `/roarr tutorial` branch. This is a static source comparison, not evidence of an explicit Git merge.
 
 The later **RoarGuild** repository implements guild-recruitment text through `/rogu invite`, as well as multiple emote instances and Roarboard. None of those functions appear in Battle Emotes Legacy. The invite command publishes text to a chat channel; it does not issue an actual game guild invitation.
+
+## Place in the expressive-addon family
+
+Battle Emotes Legacy is the November 2025 ROAR experiment derived from BuxbrewCharge. Its five battle-emote tokens (ROAR, CHARGE, CHEER, BORED and FLEX) are a **fixed Lua table**, not a starting set the player can extend with commands. It adds adjustable chance/cooldown and an on/off switch, but not guild recruitment. The separate Battle Emotes repository has effectively the same gameplay implementation and a longer tutorial. See [the source-grounded family timeline](EMOTE_FAMILY_HISTORY.md) for the differences between all the projects.

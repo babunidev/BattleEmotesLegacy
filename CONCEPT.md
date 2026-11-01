@@ -34,3 +34,7 @@ The current source starts the cooldown **before** the chance roll. Consequently,
 ## Canonical identity boundaries
 
 The GitHub repository was formerly `roar`; its installed addon remains `roarr`. The separate `babunidev/roarr` repository shares its gameplay code, differing in the tutorial. **RoarGuild** adds guild recruitment and community functionality, while **RoarForever** is another distinct addon. Shared naming does not prove a formal succession plan.
+
+## Place in the expressive-addon family
+
+Battle Emotes Legacy is the November 2025 ROAR experiment derived from BuxbrewCharge. Its five battle-emote tokens (ROAR, CHARGE, CHEER, BORED and FLEX) are a **fixed Lua table**, not a starting set the player can extend with commands. It adds adjustable chance/cooldown and an on/off switch, but not guild recruitment. The separate Battle Emotes repository has effectively the same gameplay implementation and a longer tutorial. See [the source-grounded family timeline](docs/EMOTE_FAMILY_HISTORY.md) for the differences between all the projects.

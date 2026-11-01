@@ -36,3 +36,7 @@ The core experience is player-triggered battle emotes, with configurable chance,
 ## Verified family distinction
 
 Battle Emotes Legacy and the separate `roarr` project have the same five-token emote mechanics; their tutorial output differs. The guild association is Babuni's recollection, but **neither source includes guild recruitment**. That appears in the later **RoarGuild** project as manual chat messages. Do not infer automatic guild joining, integration, or an approved merger.
+
+## Cross-project verification rule
+
+Use [the family history](docs/EMOTE_FAMILY_HISTORY.md) for lineage claims. This project has five fixed source-defined emotes, no in-game emote-add command, and no guild recruiting. Do not attribute Roar Guild's editable registry to this earlier ROAR snapshot.

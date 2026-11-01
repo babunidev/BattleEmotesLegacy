@@ -36,3 +36,7 @@ For this older repository, I chose **Battle Emotes Legacy** and renamed it on Gi
 ## 1 November 2026 — comparison prompted by a remembered guild connection
 
 Babuni asked how Battle Emotes Legacy differed from Action Emotes #1, Action Emotes #2, and `roarr`, recalling a connection with the **ROAR guild** and possible invitation messages. AI compared those Lua sources and the later **RoarGuild** implementation, established that the two ROARR versions differ in tutorial output rather than gameplay, and traced recruitment chat messages to RoarGuild. This is a fresh human recollection combined with source research, not recovered original dialogue. Documentation only; no code or license changes and no in-game tests.
+
+## Place in the expressive-addon family
+
+Battle Emotes Legacy is the November 2025 ROAR experiment derived from BuxbrewCharge. Its five battle-emote tokens (ROAR, CHARGE, CHEER, BORED and FLEX) are a **fixed Lua table**, not a starting set the player can extend with commands. It adds adjustable chance/cooldown and an on/off switch, but not guild recruitment. The separate Battle Emotes repository has effectively the same gameplay implementation and a longer tutorial. See [the source-grounded family timeline](EMOTE_FAMILY_HISTORY.md) for the differences between all the projects.
