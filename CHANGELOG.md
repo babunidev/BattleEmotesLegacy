@@ -1,6 +1,6 @@
-# ROARR / roar — changelog and source history
+# Battle Emotes Legacy / roar — changelog and source history
 
-**Project author:** Babuni.dev. Dates below identify **Git commits**, not necessarily releases.
+**Project author:** Babuni. Dates below identify **Git commits**, not necessarily releases.
 
 ## 2026-10-26 — expanded documentation
 
@@ -24,3 +24,9 @@
 | **2026-10-26** | `f479c1a`, `87d225f`, `dfda278`, `ed1dc5d`, `9af91ca` | Author-credit and initial documentation edits completed before this expansion. |
 
 The commit history supports the sequence of modifications but does not tell us why a particular intermediate filename was changed or why files were briefly deleted. Don't invent those motives.
+
+## 2026-11-01 — descriptive project identity
+
+- I renamed the GitHub repository from `roar` to **BattleEmotesLegacy** to distinguish this older experiment from the later `roarr` repository.
+- At my direction, AI updated the documentation and attribution while retaining historical addon names and source evidence.
+- No Lua, TOC or license was changed; no in-game testing was performed.
