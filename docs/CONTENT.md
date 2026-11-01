@@ -1,6 +1,6 @@
-# ROARR — emote and UI text inventory
+# Battle Emotes Legacy — emote and UI text inventory
 
-**Author:** Babuni.dev  
+**Author:** Babuni  
 **Canonical source:** `EMOTE_TOKENS_BATTLE` in `roarr.lua`.
 
 ## Built-in emote tokens
@@ -26,6 +26,6 @@ If `DoEmote` is absent, the Lua fallback posts the short generic string “makes
 
 ## Editorial maintenance
 
-Do not replace the five built-in tokens with bespoke text strings without the creator's direction. Content changes should distinguish gameplay effects, specific game-owned emotes and Babuni.dev's own addon-authored strings.
+Do not replace the five built-in tokens with bespoke text strings without Babuni's direction. Content changes should distinguish gameplay effects, specific game-owned emotes and Babuni's own addon-authored strings.
 
 Historical source variants used `ROAR`, `/roar` and `ROARDB`; the final package uses the distinct `ROARR` namespace. See `docs/DEVLOG.md` for source-backed evolution.
