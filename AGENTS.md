@@ -40,3 +40,7 @@ Battle Emotes Legacy and the separate `roarr` project have the same five-token e
 ## Cross-project verification rule
 
 Use [the family history](docs/EMOTE_FAMILY_HISTORY.md) for lineage claims. This project has five fixed source-defined emotes, no in-game emote-add command, and no guild recruiting. Do not attribute Roar Guild's editable registry to this earlier ROAR snapshot.
+
+## Repository-local documentation standard
+
+Before writing or changing project documentation, read [docs/DOCUMENTATION.md](docs/DOCUMENTATION.md). These rules travel with this repository and do not depend on the babuni.dev ChatGPT Project. Preserve all project-specific technical, creative, canon, safety, licensing, and historical rules in this file; follow the linked standard for public first-person narrative, human–AI attribution, concise development journals, decision records, and evidence-based verification. **Babuni** is the human creative; **babuni.dev** is the website/portfolio, not the person. Preserve third-party credits and historical legal notices. References above to a dated “documentation-only audit” describe that past task, not a permanent ban on later authorized implementation.
