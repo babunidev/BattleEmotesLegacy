@@ -4,9 +4,7 @@
 **Repository:** [`babunidev/BattleEmotesLegacy`](https://github.com/babunidev/BattleEmotesLegacy), formerly `roar`. **Installed addon:** `roarr`.  
 **Target:** World of Warcraft 1.12 / interface `11200`  
 **Declared version:** 1.0  
-**Current runtime verification:** Not retested in this documentation review.
-
-To distinguish this older experiment from the later Battle Emotes project, I renamed its GitHub repository **BattleEmotesLegacy**. The GitHub repository is now [`BattleEmotesLegacy`](https://github.com/babunidev/BattleEmotesLegacy), but its installed addon remains **ROARR**, with its original filenames and commands.
+**Verification:** Reviewed against the source. Current in-game behavior remains unverified.
 
 ROARR gives an ordinary action-bar press a little theatrical personality. After you choose a button, the addon can perform a randomly selected **built-in World of Warcraft emote**—ROAR, CHARGE, CHEER, BORED, or FLEX—without replacing that button's normal action. It's a lightweight character-flavor addon, not combat automation.
 
@@ -73,6 +71,8 @@ The current Lua files of the two ROARR repositories have **identical gameplay co
 Looking back, I associate this experiment with the **ROAR guild**. That connection is part of the project's history, but **guild invitation and recruitment features are absent from both ROARR versions**. The later [RoarGuild](https://github.com/babunidev/RoarGuildAddon) addon contains the remembered `/rogu invite` command, which posts a random recruitment message to a numbered chat channel on request. It does not send a game invitation to a player.
 
 ## Project history and naming
+
+To distinguish this older experiment from the later Battle Emotes project, I renamed the GitHub repository to **BattleEmotesLegacy**. The installed addon keeps the **ROARR** name, filenames and commands.
 
 The first source upload on **2025-11-22** called this addon **ROAR**, explicitly describing it in a source comment as *based on BuxbrewCharge*. Development on **2025-11-23** added and adjusted configuration, on/off handling, and changed names between `roar` and `roarr` several times. The final committed package is **ROARR**, using `/roarr` and `ROARRDB`.
 
